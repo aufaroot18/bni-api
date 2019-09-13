@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BNI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body {
+
+		}
+		h1 {
+			font-family: 'Roboto Mono';
+			color: #4a5669;
+			font-weight: 600;
+			font-size: 30px;
+		}
+		p {
+			font-family: 'Roboto Mono';
+			color: #4a5669;
+			font-size: 18px;
+			line-height: 26px;
+		}
+		.jumbotron {
+			margin-top: 50px;
+		}
+		#card {
+			padding: 90px 90px 0 90px;
+		}
+		#card h5 {
+			font-size: 15px;
+			color: rgb(85, 97, 115);
+			font-weight: 600;
+			font-family: 'Roboto Mono';
+		}
+		#card p {
+			color: rgba(36, 55, 78, 0.7);
+			font-family: serif;
+			font-size: 15px;
+		}		
+		#footer {
+			margin-top: 90px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Main Heading -->
+	<div id="first-container" class="container-fluid">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm justify-content-end">
+			  <ul class="navbar-nav">
+			    <li class="nav-item">
+			      <button class="btn btn-primary btn-sm" type="submit">Login</button>
+			  </ul>
+			</nav>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="img/BNI_logo.svg" height="35">					
+				</a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<span class="mr-auto"></span>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">API Reference</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Guides</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Libraries</a>
+						</li>
+						<li class="nav-item">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search docs">
+						</li>
+					</ul>
+				</div>
+			</nav>			
+		</div>
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<div class="float-left">
+						<h1>
+							Developer Guides
+						</h1>
+						<p>
+							Explore our step-by-step use case tutorials, download the sample code and add communications functionality to your app in a matter of minutes.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="float-right">
+						<svg class="SVGInline-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 323.8 211.7" width="300">
+						    <path d="M63.1 107.2C59.8 51.9 102 4.4 157.2 1.2s102.7 38.9 106 94.2c0 .4 0 .9.1 1.3" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M176.4 24.6l1-6.2c37.4 5.7 65.7 36.9 67.7 74.7m-163.9 9.6c-1.8-34.6 18.3-66.6 50.2-80M86.9 38.3l3.7 3.1m-3.7-3.1l3.7 3.1m2-9.4l1.6 1.3m11.6-12.5l1.3 1.6M120.8 12l1 1.9M137 6l.7 2m16.4-5.1l.3 2.1m17-2.1V5m17.1.8l-.4 2.1m16.7 3.8l-.7 1.9m15.8 6.7l-1.1 1.8m14.4 9.2l-1.4 1.6M99.1 26l3.1 3.8M113.3 16l2.4 4.3m13.2-11.6l1.7 4.6m15.1-9.2l.8 4.9m16.4-6.4v4.9M180.2 4l-.9 4.9m17.6-.4l-1.7 4.6m17.4 2.7l-2.4 4.2m16.7 5.7l-3.2 3.7m15.4 8.5l-3.7 3.1" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M141.6 17.7l28.6 58.5c1.4 3.5-4 9.6-7.5 11.1s-11.6.9-13.1-2.7c-.2-.4-.3-.9-.4-1.4l-7.6-65.5zm55.3 169.5l-10.1-5.3 10.1-5.3" fill="#c8dff5"></path>
+						    <path d="M196.1 181.9h113.7" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4"></path>
+						    <path d="M139.7 187.2l10.1-5.3-10.1-5.3" fill="#c8dff5"></path>
+						    <path d="M140.5 181.9H26.8" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4"></path>
+						    <path d="M42.4 55.2H289v80.2c0 4.4-3.6 8-8 8H50.4c-4.4 0-8-3.6-8-8V55.2z" fill="#5ba1e1" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M50.4 46.8h230.5c4.4 0 8 3.6 8 8V127c0 4.4-3.6 8-8 8H50.4c-4.4 0-8-3.6-8-8V54.8c0-4.4 3.6-8 8-8z" fill="#91c0eb" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M53.5 57.1h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 31h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 15h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 15h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h61.9c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-61.9c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm70.4 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm5.6-36.4h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-22.4 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0H138c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2z" fill="#c8dff5" stroke="#5ba1e1" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" opacity=".5"></path>
+						    <path d="M53.5 55.1h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 31h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 15h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm-219.6 15h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm22.3 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H104c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h61.9c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-61.9c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm70.4 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2H259c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm14.1 0h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2zm5.6-36.4h-14c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-22.4 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0H138c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2zm-14.1 0h-5.6c-1.1 0-2-.9-2-2v-5.6c0-1.1.9-2 2-2h5.6c1.1 0 2 .9 2 2v5.6c0 1.1-.9 2-2 2z" fill="#c8dff5" stroke="#5ba1e1" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M143 108.2c-6.6-2.2-13.7 1.3-15.9 7.9 0 .1 0 .1-.1.2l-1.7 5.3c-.5 1.6-1.7 2.9-3.3 3.5-2.7 1-5.8-.4-6.8-3.1-.4-1.1-.4-2.4 0-3.5l6.4-19.2c.3-.9.9-1.6 1.7-2l7.7-3.7c6.2-3.1 8.7-10.7 5.6-16.9 0 0 0-.1-.1-.1l-9.1 4.6c1.4-3.4 1.3-7.3-.3-10.6l-20.8 10.2c-1.9.9-3.5 2.4-4.6 4.2-.8-1.3-2-2.4-3.5-2.8-3.3-1.1-6.9.7-8.1 4l-2.5 7.6c-.7-.8-1.7-1.5-2.8-1.8-3.3-1.1-6.9.7-8.1 4l-8.8 26.3c-2.1 6.3-2.1 13.2.1 19.5l-8.1 24 35.3 11.9 6-17.9c1.5-4.4 4.4-8.1 8.4-10.4l20-12.1c2.8-1.7 4.8-4.3 5.9-7.3l7.5-21.8z" fill="#fff"></path>
+						    <defs>
+						        <path id="a" d="M143 108.2c-6.6-2.2-13.7 1.3-15.9 7.9 0 .1 0 .1-.1.2l-1.7 5.3c-.5 1.6-1.7 2.9-3.3 3.5-2.7 1-5.8-.4-6.8-3.1-.4-1.1-.4-2.4 0-3.5l6.4-19.2c.3-.9.9-1.6 1.7-2l7.7-3.7c6.2-3.1 8.7-10.7 5.6-16.9 0 0 0-.1-.1-.1l-9.1 4.6c1.4-3.4 1.3-7.3-.3-10.6l-20.8 10.2c-1.9.9-3.5 2.4-4.6 4.2-.8-1.3-2-2.4-3.5-2.8-3.3-1.1-6.9.7-8.1 4l-2.5 7.6c-.7-.8-1.7-1.5-2.8-1.8-3.3-1.1-6.9.7-8.1 4l-8.8 26.3c-2.1 6.3-2.1 13.2.1 19.5l-8.1 24 35.3 11.9 6-17.9c1.5-4.4 4.4-8.1 8.4-10.4l20-12.1c2.8-1.7 4.8-4.3 5.9-7.3l7.5-21.8z"></path>
+						    </defs>
+						    <clipPath id="b">
+						        <use xlink:href="#a" overflow="visible"></use>
+						    </clipPath>
+						    <g clip-path="url(#b)" fill="#2481d7">
+						        <path d="M134.2 80.3l-8.6 3.6-8.8 3.7-1.2.5-.1.1h-.1l-.3.1-.5.2c-.7.3-1.3.8-1.8 1.2-1.2 1-2.1 2.3-2.6 3.8L99 121.2l7.8-28.8c.8-3.2 2.7-5.9 5.4-7.8l.7-.4.3-.2.4-.2 1.1-.7 8.3-4.7 8.1-4.6c1.7-1 3.9-.4 4.8 1.3s.4 3.9-1.3 4.8l-.4.4zM102.3 86l-12.9 30.7 8.2-32.3c.4-1.3 1.8-2.1 3.1-1.7 1.2.4 2 1.6 1.7 2.9 0 .2-.1.3-.1.4zm-12.4 2.7l-10.3 28.5 5.5-29.9c.2-1.4 1.6-2.3 2.9-2 1.4.2 2.3 1.6 2 2.9 0 .2-.1.3-.1.5z" opacity=".25"></path>
+						        <path d="M125.9 119.7l-1.7 5.3c-.4 1.4-1.5 2.7-2.8 3.3-2.6 1.2-5.8.1-7-2.5-.6-1.2-.7-2.6-.2-3.9l6.4-19.2M119.2 143.5L99 155.9c-3.6 2.2-6.2 5.5-7.6 9.4l-3.6 9.6 22.1 7.4 9.3-38.8" opacity=".25" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    </g>
+						    <path d="M143 108.2c-6.6-2.2-13.7 1.3-15.9 7.9 0 .1 0 .1-.1.2l-1.7 5.3c-.5 1.6-1.7 2.9-3.3 3.5-2.7 1-5.8-.4-6.8-3.1-.4-1.1-.4-2.4 0-3.5l6.4-19.2c.3-.9.9-1.6 1.7-2l7.7-3.7c6.2-3.1 8.7-10.7 5.6-16.9 0 0 0-.1-.1-.1l-9.1 4.6c1.4-3.4 1.3-7.3-.3-10.6l-20.8 10.2c-1.9.9-3.5 2.4-4.6 4.2-.8-1.3-2-2.4-3.5-2.8-3.3-1.1-6.9.7-8.1 4l-2.5 7.6c-.7-.8-1.7-1.5-2.8-1.8-3.3-1.1-6.9.7-8.1 4l-8.8 26.3c-2.1 6.3-2.1 13.2.1 19.5l-8.1 24 35.3 11.9 6-17.9c1.5-4.4 4.4-8.1 8.4-10.4l20-12.1c2.8-1.7 4.8-4.3 5.9-7.3l7.5-21.8z" fill="none" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M134.4 77.8l-18.4 9c-2.7 1.3-4.7 3.7-5.7 6.6l-9.6 28.6m-10.6-2.7l10.7-32c1-2.9 3-5.2 5.7-6.6l16.8-8.2M88.1 92.8L80.3 116" fill="none" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M96.1 184.8l-39.2-13.2 4.2-12.5c.2-.5.7-.8 1.3-.6L99.7 171c.5.2.8.7.6 1.3l-4.2 12.5z" fill="#91c0eb" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M66.9 159.5l-4.7 14m8.9-12.6l-4.7 14m8.8-12.6l-4.6 14m8.8-12.6l-4.7 14m8.9-12.6l-4.7 14m8.8-12.6l-4.6 14m8.8-12.6l-4.7 14m8.9-12.6l-4.7 14" fill="none" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M45.2 193.6l5.5-16.4c1.4-4.2 6-6.4 10.1-5l33 11c4.2 1.4 6.4 6 5 10.1l-5.5 16.4" fill="#c8dff5"></path>
+						    <defs>
+						        <path id="c" d="M45.2 193.6l5.5-16.4c1.4-4.2 6-6.4 10.1-5l33 11c4.2 1.4 6.4 6 5 10.1l-5.5 16.4"></path>
+						    </defs>
+						    <clipPath id="d">
+						        <use xlink:href="#c" overflow="visible"></use>
+						    </clipPath>
+						    <path d="M93.3 209.7l5.8-17.2c1.3-3.8-.5-7.8-4-9l-8.7-2.9c3.5 1.2 5.3 5.2 4 9l-5.8 17.2 8.7 2.9z" clip-path="url(#d)" opacity=".25" fill="#2481d7" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M45.2 193.6l5.5-16.4c1.4-4.2 6-6.4 10.1-5l33 11c4.2 1.4 6.4 6 5 10.1l-5.5 16.4" fill="none" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M45.2 193.6l5.5-16.4c1.4-4.2 6-6.4 10.1-5l33 11c4.2 1.4 6.4 6 5 10.1l-5.5 16.4" fill="#c8dff5" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M56.5 182.2l-5.2 15.5m8.2-10.5l-5.2 15.5m8.2-10.5l-5.2 15.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M192.2 108.2c6.6-2.2 13.7 1.3 15.9 7.9 0 .1 0 .1.1.2l1.7 5.3c.5 1.6 1.7 2.9 3.3 3.5 2.7 1 5.8-.4 6.8-3.1.4-1.1.4-2.4 0-3.5l-6.4-19.2c-.3-.9-.9-1.6-1.7-2l-7.7-3.7c-6.2-3.1-8.7-10.7-5.6-16.9 0 0 0-.1.1-.1l9.2 4.6c-1.4-3.4-1.3-7.3.3-10.6l20.7 10.2c1.9.9 3.5 2.4 4.6 4.2.8-1.3 2-2.4 3.5-2.8 3.3-1.1 6.9.7 8.1 4l2.5 7.6c.7-.8 1.7-1.5 2.8-1.8 3.3-1.1 6.9.7 8.1 4l8.8 26.3c2.1 6.3 2.1 13.2-.1 19.5l8 24-35.2 11.8-6-17.9c-1.5-4.4-4.4-8.1-8.4-10.4l-20-12.1c-2.8-1.7-4.8-4.3-5.9-7.3l-7.5-21.7z" fill="#fff"></path>
+						    <defs>
+						        <path id="e" d="M192.2 108.2c6.6-2.2 13.7 1.3 15.9 7.9 0 .1 0 .1.1.2l1.7 5.3c.5 1.6 1.7 2.9 3.3 3.5 2.7 1 5.8-.4 6.8-3.1.4-1.1.4-2.4 0-3.5l-6.4-19.2c-.3-.9-.9-1.6-1.7-2l-7.7-3.7c-6.2-3.1-8.7-10.7-5.6-16.9 0 0 0-.1.1-.1l9.2 4.6c-1.4-3.4-1.3-7.3.3-10.6l20.7 10.2c1.9.9 3.5 2.4 4.6 4.2.8-1.3 2-2.4 3.5-2.8 3.3-1.1 6.9.7 8.1 4l2.5 7.6c.7-.8 1.7-1.5 2.8-1.8 3.3-1.1 6.9.7 8.1 4l8.8 26.3c2.1 6.3 2.1 13.2-.1 19.5l8 24-35.2 11.8-6-17.9c-1.5-4.4-4.4-8.1-8.4-10.4l-20-12.1c-2.8-1.7-4.8-4.3-5.9-7.3l-7.5-21.7z"></path>
+						    </defs>
+						    <clipPath id="f">
+						        <use xlink:href="#e" overflow="visible"></use>
+						    </clipPath>
+						    <g clip-path="url(#f)" fill="#2481d7">
+						        <path d="M204.1 74l8.1 4.6 8.3 4.7 1.1.7.4.2.3.2.7.4c2.7 1.8 4.6 4.6 5.4 7.8l7.8 28.8-11.1-27.6c-.5-1.5-1.4-2.8-2.6-3.8-.6-.5-1.2-.9-1.8-1.2l-.5-.2-.3-.1h-.1l-.1-.1-1.2-.5-8.8-3.7-8.6-3.6c-1.8-.7-2.7-2.7-2.1-4.5.7-1.8 2.7-2.7 4.5-2.1.1 0 .2.1.3.1l.3-.1zm33.6 10.4l8.2 32.3L233 86c-.6-1.3-.1-2.7 1.2-3.3 1.3-.6 2.7-.1 3.3 1.2 0 .1.1.1.1.2 0 0 .1.2.1.3zm12.5 2.9l5.5 29.9-10.3-28.5c-.5-1.3.1-2.7 1.4-3.3s2.7.1 3.3 1.4c0 .1 0 .1.1.2-.1.1 0 .2 0 .3z" opacity=".25"></path>
+						        <path d="M209.3 119.7l1.7 5.3c.4 1.4 1.5 2.7 2.8 3.3 2.6 1.2 5.8.1 7-2.5.6-1.2.7-2.6.2-3.9l-6.4-19.2M216 143.5l20.2 12.4c3.6 2.2 6.2 5.5 7.6 9.4l3.6 9.6-22.1 7.4-9.3-38.8" opacity=".25" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    </g>
+						    <path d="M192.2 108.2c6.6-2.2 13.7 1.3 15.9 7.9 0 .1 0 .1.1.2l1.7 5.3c.5 1.6 1.7 2.9 3.3 3.5 2.7 1 5.8-.4 6.8-3.1.4-1.1.4-2.4 0-3.5l-6.4-19.2c-.3-.9-.9-1.6-1.7-2l-7.7-3.7c-6.2-3.1-8.7-10.7-5.6-16.9 0 0 0-.1.1-.1l9.2 4.6c-1.4-3.4-1.3-7.3.3-10.6l20.7 10.2c1.9.9 3.5 2.4 4.6 4.2.8-1.3 2-2.4 3.5-2.8 3.3-1.1 6.9.7 8.1 4l2.5 7.6c.7-.8 1.7-1.5 2.8-1.8 3.3-1.1 6.9.7 8.1 4l8.8 26.3c2.1 6.3 2.1 13.2-.1 19.5l8 24-35.2 11.8-6-17.9c-1.5-4.4-4.4-8.1-8.4-10.4l-20-12.1c-2.8-1.7-4.8-4.3-5.9-7.3l-7.5-21.7z" fill="none" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M200.9 77.8l18.4 9c2.7 1.3 4.7 3.7 5.7 6.6l9.6 28.6m10.6-2.7l-10.7-32c-1-2.9-3-5.2-5.7-6.6L212 72.5m35.1 20.3l7.8 23.2" fill="none" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M239.1 184.8l39.2-13.2-4.2-12.5c-.2-.5-.7-.8-1.3-.6L235.5 171c-.5.2-.8.7-.6 1.3l4.2 12.5z" fill="#91c0eb" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M268.4 159.5l4.6 14m-8.8-12.6l4.7 14m-8.9-12.6l4.7 14m-8.8-12.6l4.6 14m-8.8-12.6l4.7 14m-8.9-12.6l4.7 14m-8.8-12.6l4.6 14m-8.8-12.6l4.7 14" fill="none" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M290 193.6l-5.5-16.4c-1.4-4.2-6-6.4-10.1-5l-33 11c-4.2 1.4-6.4 6-5 10.1l5.5 16.4" fill="#c8dff5"></path>
+						    <defs>
+						        <path id="g" d="M290 193.6l-5.5-16.4c-1.4-4.2-6-6.4-10.1-5l-33 11c-4.2 1.4-6.4 6-5 10.1l5.5 16.4"></path>
+						    </defs>
+						    <clipPath id="h">
+						        <use xlink:href="#g" overflow="visible"></use>
+						    </clipPath>
+						    <path d="M241.9 209.7l-5.8-17.2c-1.3-3.8.5-7.8 4-9l8.7-2.9c-3.5 1.2-5.3 5.2-4 9l5.8 17.2-8.7 2.9z" clip-path="url(#h)" opacity=".25" fill="#2481d7" stroke="#2481d7" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M290 193.6l-5.5-16.4c-1.4-4.2-6-6.4-10.1-5l-33 11c-4.2 1.4-6.4 6-5 10.1l5.5 16.4" fill="none" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M290 193.6l-5.5-16.4c-1.4-4.2-6-6.4-10.1-5l-33 11c-4.2 1.4-6.4 6-5 10.1l5.5 16.4" fill="#c8dff5" stroke="#2481d7" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <path d="M278.7 182.2l5.2 15.5m-8.2-10.5l5.2 15.5m-8.2-10.5l5.2 15.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"></path>
+						    <circle cx="167.2" cy="183.7" r="13" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></circle>
+						    <path d="M170.3 179.6c2.6 1.7 3.3 5.2 1.5 7.8-1.7 2.6-5.2 3.3-7.8 1.5-2.6-1.7-3.3-5.2-1.5-7.8.4-.5.8-1 1.3-1.4m3.4-2.3v8.2" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M155.9 158.5c.4.3.8.5 1.3.6.4.1.8-.2.9-.6 0-.5-.5-.7-1.2-.7h-.5l-.3-.8.8-1c.2-.2.4-.4.5-.6h-2.1v-1.3h4v1l-1.3 1.5c.9.2 1.5.9 1.5 1.9 0 1.2-1 2.2-2.2 2.2h-.2c-.8 0-1.6-.3-2.2-.8l1-1.4zm5.4.5h1.5v1.5h-1.5V159zm3.2.8c0-2.4 2.8-2.8 2.8-3.7 0-.3-.3-.6-.6-.6h-.1c-.4.1-.8.3-1 .7l-1.2-.8c.4-.9 1.3-1.4 2.2-1.4 1.1-.1 2.1.7 2.2 1.8v.2c0 2-2.6 2.4-2.6 3.2h2.7v1.3h-4.4v-.7zm6.1-.8h1.5v1.5h-1.5V159zm3.3.1h1.4v-3.2c-.1.1-.1.2-.2.3l-.4.4-.9-1 1.7-1.6h1.4v5.1h1.4v1.3H174l-.1-1.3z" fill="#c8dff5"></path>
+						    <path d="M42.4 33.3H30.6v121h8.8" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M25 174.2c3.9 0 7.1 3.2 7.1 7.1 0 3.9-3.2 7.1-7.1 7.1-3.9 0-7.1-3.2-7.1-7.1 0-4 3.2-7.1 7.1-7.1z" fill="#fff" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M22.9 177.7h1.6v5.1H27v1.3h-4.2l.1-6.4z" fill="#c8dff5"></path>
+						    <path d="M311 175.2c3.9 0 7.1 3.2 7.1 7.1 0 3.9-3.2 7.1-7.1 7.1-3.9 0-7.1-3.2-7.1-7.1 0-4 3.2-7.1 7.1-7.1z" fill="#fff" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M308.9 178.7h2.2c.4 0 .8 0 1.2.1.8.3 1.2 1 1.2 1.9 0 .7-.4 1.4-1 1.7.1.1.2.2.2.4l1.2 2.2h-1.7l-1.1-2.2h-.7v2.2h-1.6l.1-6.3zm2.2 2.9c.4 0 .8-.2.8-.6v-.1c0-.5-.2-.8-1-.8h-.5v1.6h.7v-.1z" fill="#c8dff5"></path>
+						    <path d="M134.5 204.6h5.1v5.1h-5.1z" fill="#fff" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M144 204.6h18.7m-18.7 5h14.7" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M169.5 204.6h5.1v5.1h-5.1z" fill="#fff" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M179 204.6h18.7m-18.7 5h14.7M11.6 113.2H3c-1.1 0-2-.9-2-2v-8.6c0-1.1.9-2 2-2h8.6c1.1 0 2 .9 2 2v8.6c0 1.1-.9 2-2 2zm0-25H3c-1.1 0-2-.9-2-2v-8.6c0-1.1.9-2 2-2h8.6c1.1 0 2 .9 2 2v8.6c0 1.1-.9 2-2 2z" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M5.2 92.9H7v-2h1.2v2H10v1.2H8.3v2H7v-2H5.2v-1.2zm-.1-11.8l4.5-2v1.3l-3 1.2 3 1.2v1.3l-4.5-2v-1zm.1 27.2l3-1.2-3-1.2v-1.3l4.5 2v1l-4.5 2v-1.3z" fill="#c8dff5"></path>
+						    <path d="M18.6 81.5h2.5v25h-2.5M21.1 94h9.5" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <path d="M129 29.7l7.1-8.9-11.3-.8" fill="#c8dff5"></path>
+						    <path d="M251 34.9h56.2v36h11.2v4m-19.9 6.7h17.4v19c0 2.2-1.8 4-4 4h-9.4c-2.2 0-4-1.8-4-4v-19zm17.4 18.4c0-2.5 1.5-4.8 3.8-5.9 1.6-.7 2.7-2.1 3.1-3.8.8-4.1-3.7-6.4-6.9-4.5" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						    <circle cx="250.2" cy="35.3" r="3.5" fill="#fff" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></circle>
+						    <path d="M306.4 70.9h-11.2v4" fill="none" stroke="#c8dff5" stroke-width="2" stroke-miterlimit="10"></path>
+						</svg>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>				
+		</div>
+	</div>
+
+	<!-- Content -->
+	
+	<div id="card" class="container">
+		<div class="card-columns">
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Two Factor Authentication</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+		      <div class="float-left">
+		      	<p><button class="btn btn-primary btn-sm">Verify</button></p>
+		      </div>
+		      <div class="float-right">
+		      	<p>		      		
+		      		<i class="fa fa-github fa-2x"></i>
+		      		<i class="fa fa-linux fa-2x"></i>
+		      		<i class="fa fa-windows fa-2x"></i>
+		      	</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="footer" class="container text-center">
+		<div class="row">
+			<div class="col-sm-3"">
+				<img src="img/BNI_logo.svg" height="26">
+			</div>
+			<div id="footer-menu" class="col-sm-6"">
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">About</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Careers</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Support</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Status</a>
+				  </li>
+				</ul>
+			</div>
+			<div class="col-sm-3"">
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+				    <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#"><i class="fa fa-dribbble"></i></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#"><i class="fa fa-github"></i></a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<p>
+			by daeng.id. All Right Reserved
+		</p>
+	</div>
+</body>
+</html>

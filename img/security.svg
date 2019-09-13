@@ -1,0 +1,8 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <path d="M40 52.46l-10 5.28-10-5.28A29.8 29.8 0 0 1 4.15 26.11V7.34a66.38 66.38 0 0 1 51.69 0v18.79A29.8 29.8 0 0 1 40 52.46z" stroke-width="2" stroke="#2481d7" stroke-miterlimit="10" fill="#c8dff5"/>
+    <path d="M37.91 29.63a2 2 0 0 1-2-2v-8.36a5.92 5.92 0 0 0-11.84 0v8.37a2 2 0 0 1-4 0v-8.37a9.9 9.9 0 0 1 19.79 0v8.37a2 2 0 0 1-1.95 1.99z" fill="#fff" stroke-width="2" stroke="#2481d7" stroke-miterlimit="10"/>
+    <circle cx="30.13" cy="33.44" r="11.87" fill="#fff" stroke-width="2" stroke="#2481d7" stroke-miterlimit="10"/>
+    <circle cx="30.13" cy="33.44" r="8.45" fill="#c8dff5"/>
+    <circle cx="30" cy="31.56" r="2.98" fill="#2481d7"/>
+    <path fill="#2481d7" d="M31.07 31.94l.99 5.2h-4.12l.99-5.2h2.14z"/>
+</svg>

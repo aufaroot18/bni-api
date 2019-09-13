@@ -1,0 +1,47 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <defs>
+        <clipPath id="a">
+            <path data-name="&lt;Clipping Path&gt;" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" fill="#fff" d="M55.58 56.42H3.97L16.2 38.67h27.15l12.23 17.75z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M13.12 52.91l6.19-10h20.93l6.41 10H13.12z"/>
+        </clipPath>
+        <clipPath id="c">
+            <path data-name="&lt;Clipping Path&gt;" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" fill="#fff" d="M55.58 47.21H3.97L16.2 29.46h27.15l12.23 17.75z"/>
+        </clipPath>
+        <clipPath id="d">
+            <path fill="none" d="M13.12 43.58l6.19-10h20.93l6.41 10H13.12z"/>
+        </clipPath>
+        <clipPath id="e">
+            <path fill="none" d="M13.12 33.96l4.46-7.07 4.5-.89 1.23-2.04h16.93l1.63 5.8-2.59.57 2.37 3.63H13.12z"/>
+        </clipPath>
+        <clipPath id="f">
+            <path data-name="&lt;Clipping Path&gt;" d="M45.12 26.25l-9.19 3.89 2.21-9.27L50.05 5.29a4.41 4.41 0 0 1 6.18-.8 4.41 4.41 0 0 1 .8 6.18z" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" fill="#fff"/>
+        </clipPath>
+    </defs>
+    <path data-name="&lt;Clipping Path&gt;" fill="#fff" d="M55.58 56.42H3.97L16.2 38.67h27.15l12.23 17.75z"/>
+    <g clip-path="url(#a)">
+        <path stroke="#c8dff5" fill="#2481d7" stroke-width="8" stroke-miterlimit="10" d="M6.44 47.47h46"/>
+    </g>
+    <path data-name="&lt;Clipping Path&gt;" fill="none" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" d="M55.58 56.42H3.97L16.2 38.67h27.15l12.23 17.75z"/>
+    <g clip-path="url(#b)" stroke-width="2" stroke="#c8dff5" fill="none" stroke-miterlimit="10">
+        <path d="M12.45 47.41h33.06M12.45 43.7h33.06"/>
+    </g>
+    <path data-name="&lt;Clipping Path&gt;" fill="#fff" d="M55.58 47.21H3.97L16.2 29.46h27.15l12.23 17.75z"/>
+    <g clip-path="url(#c)">
+        <path stroke="#c8dff5" fill="#2481d7" stroke-width="8" stroke-miterlimit="10" d="M6.44 38h46"/>
+    </g>
+    <path data-name="&lt;Clipping Path&gt;" fill="none" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" d="M55.58 47.21H3.97L16.2 29.46h27.15l12.23 17.75z"/>
+    <g clip-path="url(#d)" stroke-width="2" stroke="#c8dff5" fill="none" stroke-miterlimit="10">
+        <path d="M12.45 38.08h33.06M12.45 34.36h33.06"/>
+    </g>
+    <path stroke-width="2" stroke-miterlimit="10" stroke="#2481d7" fill="#fff" d="M55.58 38H3.97L16.2 20.25h27.15L55.58 38z"/>
+    <g clip-path="url(#e)" stroke-width="2" stroke="#c8dff5" fill="none" stroke-miterlimit="10">
+        <path d="M12.45 28.74h33.06M12.45 25.03h33.06M8.25 32.46h41.46"/>
+    </g>
+    <path data-name="&lt;Clipping Path&gt;" d="M45.12 26.25l-9.19 3.89 2.21-9.27L50.05 5.29a4.41 4.41 0 0 1 6.18-.8 4.41 4.41 0 0 1 .8 6.18z" fill="#fff"/>
+    <g clip-path="url(#f)">
+        <path d="M47.31 7c.25 0 9 6.5 9 6.5l-9.9 13.12-10.1-8.19z" fill="#c8dff5" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7"/>
+    </g>
+    <path data-name="&lt;Clipping Path&gt;" d="M45.12 26.25l-9.19 3.89 2.21-9.27L50.05 5.29a4.41 4.41 0 0 1 6.18-.8 4.41 4.41 0 0 1 .8 6.18z" fill="none" stroke-width="2" stroke-miterlimit="10" stroke="#2481d7"/>
+</svg>
